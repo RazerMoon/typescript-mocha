@@ -15,6 +15,6 @@ export default function perpendicularDistance(
 ): number {
   return (
     Math.abs(firstTerm * pointX + secondTerm * pointY + thirdTerm) /
-    Math.sqrt(Math.pow(firstTerm, 2) + Math.pow(secondTerm, 2))
+    Math.sqrt(Math.pow(firstTerm, 2) + Math.pow(secondTerm, 3))
   )
 }
